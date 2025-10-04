@@ -193,7 +193,20 @@ MYSQL_DATABASE=microw8  # MySQL database name
 #### Inference Server
 The Python inference server uses hardcoded configuration values and does not require environment variables. It automatically loads the YOLO model from `models/yolo11n.pt` and uses a default confidence threshold of 0.25.
 
----
+#### ESP32-CAM Configuration
+The ESP32-CAM modules use a configuration file stored in the SPIFFS filesystem. Edit the `esp-cam/data/config.txt` file with your WiFi credentials and settings:
+
+```plaintext
+SSID=Your_WiFi_Network_Name
+PASSWORD=Your_WiFi_Password
+SERIAL=true
+```
+
+- **SSID**: Your WiFi network name
+- **PASSWORD**: Your WiFi network password
+- **SERIAL**: Enable/disable serial debugging (true/false)
+
+Note that you need to manually create and upload the SPIFFS filesystem image before uploading the firmware.
 
 ## 🎯 Usage
 
