@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![MicroW8 Logo](https://img.shields.io/badge/MicroW8-Queue%20Analytics-blue?style=for-the-badge&logo=microwave)
 ![Nuxt 3](https://img.shields.io/badge/Nuxt-3.17.6-00DC82?style=flat-square&logo=nuxt.js)
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python)
 ![YOLO](https://img.shields.io/badge/YOLO-11n-FF6B35?style=flat-square&logo=yolo)
